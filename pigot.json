@@ -1,0 +1,22 @@
+{
+  "author": "Scott Chamberlain",
+  "date": "2016-04-18",
+  "version": "v0.1",
+  "license": "MIT",
+  "language": "R",
+  "dependencies": [
+    "curl",
+    "readxl"
+  ],
+  "data": [
+    {
+      "doi": "10.5061/dryad.fd986/1",
+      "url": "http://dx.doi.org/10.5061/dryad.fd986/1"
+    }
+  ],
+  "location": "https://github.com/sckott/pigot",
+  "deploy": {
+  	"provider": "s3",
+  	"bucket": "pigot"
+  }
+}
